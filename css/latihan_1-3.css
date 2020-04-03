@@ -1,0 +1,30 @@
+/* ? Contoh materi 1 */
+/* ? file external css ini akan di hubungkan pada file index.html
+   ? dengan cara selector class latihan 1 untul element html p li */
+   .latihan1 {
+      margin : 50px;
+      font-family: Tahoma;
+
+   }
+
+/* ? Contoh materi 2 */
+/* ? .materi_2 adalah component */
+/* ? backgroud-color adalah properti */
+/* ? yellow adalah value atau nilai */
+   .materi_2 {  
+      margin-right: 30px;
+      margin-left: 30px;
+      font-family: Tahoma;
+      background-color: yellow;
+      padding : 10px;
+   }
+
+/* ? Contoh materi 3 */
+/* ? pengambilan selektor menggunakan id_name */
+#id_name {
+   margin-right: 30px;
+   margin-left: 30px;
+   padding: 10px;
+   font-family: Tahoma;
+   background-color: white;
+}

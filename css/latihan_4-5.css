@@ -1,0 +1,45 @@
+/* ? Materi 4 psudo class */
+header h2 {
+   font-family: Tahoma;
+   text-align: center;
+   margin: 20px;
+}
+p {
+   font-family: Tahoma;
+   font-size: 20px;
+}
+/* ? contoh hover pada button */
+button {
+   background-color: greenyellow;
+   height: 30px;
+   font-size: 20px;
+   border-radius: 20px;
+   content: center;
+}
+button:hover {
+   background-color: mediumblue;
+}
+a {
+   font-size: 15px;
+   color: currentColor;
+}
+/* ? contoh penggunaan berore menambahkan text hello pada sebuah elemen p
+? yang memiliki class sebelum */
+.sebelum::before {
+   content: 'Hello';
+}
+/* ? contoh penggunaan berore menambahkan text hello pada sebuah elemen p
+? yang memiliki class sebelum */
+.sesudah::after {
+   content: 'Sanjaya';
+}
+
+/* ? Materi 5 display */
+/* ? Contoh penggunanaan span */
+/* ? memberikan warna pada backgraound element span */
+.text span {
+   background-color: coral;
+}
+.navigasi a {
+   background-color: cyan;
+}

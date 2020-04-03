@@ -1,0 +1,26 @@
+/* ? Materi 6 
+? Z-index pada Css */
+h1 {
+   font-family: Tahoma;
+   text-align: center;
+   margin : 30px;
+}
+div {
+   width: 200px;
+   height: 200px;
+   position: absolute;
+}
+.satu {
+   background-color: red;
+}
+.dua {
+   background-color: yellow;
+   top: 195px;
+   left: 120px;
+   z-index : 1;
+}
+.tiga {
+   background-color: green;
+   top: 295px;
+   left: 240px;
+}

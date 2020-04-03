@@ -1,0 +1,110 @@
+                                    * HTML 5 & CSS 3 *
+1. HTML 5
+   Hyper Text Markup Language 
+#  Rangkuman singkat 
+   <div> & <span>
+   - tidak memiliki fungsi yang spesifik
+   - hanya untuk mengelompokan semua yang ada di dalam fungsi element
+   perbedaan 
+   - <div> memiliki display default block
+   - <span> memiliki display default inline
+
+2. CSS 3 
+   casading Style Sheet
+
+#  Marteri 1
+   3 cara penempatan script css pada file HTML :
+   - Embed           : Yaitu cara penempatan script css struktural pada bagian header HTML
+                       dibawah element tittle
+                       yang di awali dengan tag html yaitu <style> dan di akhiri dengan </style>
+   - Inline          : Yaitu cara penempatan script css di dalam baris tag html yang di awali
+                       tag <style>
+   - External        : Yaitu cara menghubungkan file css yang terpisah kedalam file html di
+                       di bagian header di bawah element tittle html dengan script sbb :
+                       <link rel="stylesheet" type="text/css" href="cssfilename">  
+
+#  Materi 2
+   CSS Componet 
+   Css terdiri dari 3 Component yaitu :
+   - Selector        : seleksi yang akan di gunakan untuk membuat style pada element html
+                       seleksi tersebut bisa di ambil dari element html speri ( element tag,
+                       class_name, id_name, dan selector complex ).
+   - properti        : Properti adalah komponen yang akan digunakan untuk style pada element element
+                       html yg sudah di seleksi
+   - value           : value / nilai yang di berikan oleh properti
+
+
+#  Materi 3
+   CSS Selector
+   4 dasar Selector yang dapat digunakan css untuk mengenali element html
+   - Element html/tag 
+     Contoh : div, p, li, a,   
+   - Element by Id 
+     Contoh : #email, #password, #nama_id ( di awali dengan tanda ( # ) )
+   - Elemet by Class 
+     Contoh : .container, .button, .nama_class ( di awali dengan tanda ( . ) ) 
+   - Element complex yang bisa menggunakan ke tiga element di atas sekaligus 
+     cara complex ini sangat berguna ketika kila melakukan filterisasi 
+     Contoh : div, .nama_class, #nama_id
+
+
+#  Materi 4
+   CSS Psudo Class 
+   Class semu yg dimiliki element html, yang membuat kita dapat mendefinisikan style 
+   pada "keadaan tertentu" dari element tersebut 
+   :: hover 
+      style ketika kursor mouse berada di sebuah element
+   :: before 
+      penambahan value/nilai element sebelum value/nilai origin/asli pada element html di sebuah
+      value css yang umumnya menggunakan atribut content :
+   :: after 
+      penambahan value/nilai element sebelum value/nilai origin/asli pada element html di sebuah
+      value css yang umumnya menggunakan atribut content :
+
+#  Materi 5 
+   CSS display       :
+   - inline          : element html secara default tidak menambahkan baris baru ketika di buat 
+                       - lebar dan tinggi elementnya sebesar konten yang ada di dalamnya
+                       - kita tidak dapat mengatur tinggi dan lebar element tersebut 
+                       - margin dan padding hanya mempengaruhi element secara horizontal, tidak vertikal
+                       element element html yang memiliki default display inline 
+                       <b> <strong> <i> <em> <a> <span> <sub> <sup> <button> <input> <label>
+                       <select> <textarea>
+   - Block           : element block secara default menambhkan baris baru ketika di buat
+                       - jika tidak diatur lebarnya, maka lebar default dari elemet blockakan memenuhi lebar
+                       dari browser
+                       - kita dapat mengatur tinggi dan lebar dari element block
+                       - di dalam element block, kita dapat menyimpan tag dengan element inline
+                       , inline block atau bahkan element block lagi.
+                       element element html yang memiliki default display inline 
+                       <h1 - h6> <p> <ol> <ul> <li> <form> <hr> <div>
+   - inline-block    : tidak ada element secara difault memiliki properti display : inline-block
+                        
+
+#  Materi 6
+   CSS Z - Index 
+   - z index         : digunakan untuk mengatur tumpukan element html yang memiliki posisi 
+                       non static/ tetap sperti : ( absolute, relative )
+
+#  Materi 7 
+   CSS Potition      :
+   - fixed           : posisi tetap
+   - static          : Posisi static adalah posisi default dari tiap tiap element ketika tidak di beri 
+                       properti posisi
+   - absolute        : ketika kita menggerakkan element dengan posisi absolute
+                       ( menggunakan properti top left bottom dan right ) ruang yang di tempati
+                       tersebut dianggap tidak ada
+   - relative        : ketika kita menngerakan element dengan posisi relative
+                       ( menggunakan properti top, left, bottom dsn right )
+                       ruang yang di tempati element tersebut masih ada 
+
+#  Materi 8
+   CSS Overflow 
+   Overflowadalah property css untuk mengatur prilaku element yang keluar dari parentnya
+   - visibel         : adalah value default dari tiap tiap element di dalam parentnya
+   - auto            : prilaku yang memberikan penempatan secara otomatis untuk sebuah element 
+                       di dalam parentnya
+   - hidden          : prilaku yang menyembunyikan element ketika element tersebut keluar dari element
+                       di dalam parentnya
+   - scroll          : prilaku yang memberikan component scroll apabila elemnt tersebut melebihi element
+                       parentnya 
